@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link href="./css/contact.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <title>Tao Bourmaud</title>
+    </head>
+
+    <body>
+        <div class="navbar">
+            <ul>
+               <h1><a href="index.html">Mon profil</a></h1>
+               <h1><a href="blog.html">Blog</a></h1>
+               <h1><a href="contact.html">Contact</a></h1> 
+            </ul>
+        </div>
+        
+        <h1 class="title">Besoin de me contacter ?</h1>
+
+        <p>Remplissez ce formulaire pour me contacter, où contactez moi via mes réseaux</p>
+
+        <div class="contact">
+            <form action="https://formsubmit.co/taobourmaud.pro@gmail.com" method="POST">
+                <input type="text" placeholder="Nom *" name="Nom" required class="name">
+                <input type="email" placeholder="Email *" name="Email" required class="email">
+                <label for="msg">Votre message *</label>
+                <textarea name="Message" required id="msg"></textarea>
+                <input type="submit" placeholder="Envoyer" class="btn">
+                <input type="hidden" name="_captcha" value="false">
+                <input type="hidden" name="_next" value="http://127.0.0.1:5500/contact.html">
+            </form>
+        </div>
+
+        <div class="footer">
+            <h2>Contactez moi</h2>
+            <ul>
+                <div>
+                    <a href="https://www.linkedin.com/in/taobourmaud/" class="fa fa-linkedin" id="linkedin"></a>
+                    <label for="linkedin">Tao Bourmaud</label>
+                </div>
+                <div>
+                    <a class="fa fa-google" id="mail"></a>
+                    <label for="mail">taobourmaud.pro@gmail.com</label>
+                </div>
+                <div>
+                    <a class="fa fa-phone" id="tel"></a>
+                    <label for="tel">0767974793</label>
+                </div>
+            </ul>
+        </div>
+    </body>
+</html>
